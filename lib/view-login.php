@@ -59,7 +59,7 @@ if ( is_user_logged_in() ) {
         </p>
         <!-- /.message -->
         <h3><?php _e( 'Edit Your Profile!', 'EM' ); ?></h3>
-        <?php do_shortcode( '[em_edit_profile]' ); ?>
+        <?php //do_shortcode( '[em_edit_profile]' ); ?>
 
     </div>
 
@@ -109,7 +109,7 @@ if ( is_user_logged_in() ) {
             <div class="text-center">
                 <div id="login-message" class="modal-message em_notice em_notice--success em_dn"></div>
                 <div id="login-error" class="modal-error em_notice em_notice--error em_dn"></div>
-                <img id="login-loader" class="modal-loader em_dn" src="<?php echo VRC_URL; ?>/assets/img/ajax-loader.gif" alt="Working...">
+                <img id="login-loader" class="modal-loader em_dn" src="<?php echo EM_URL; ?>/img/ajax-loader.gif" alt="Working...">
             </div>
         </div>
 

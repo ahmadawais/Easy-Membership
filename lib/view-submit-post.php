@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
     <?php
 
-    if( ! is_user_logged_in() ) {?>
+    if( ! is_user_logged_in() ) { ?>
 
         <div class="em_404__wrap">
             <h2><?php _e( 'Login Required!', 'VR' ); ?></h2>
@@ -88,7 +88,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                 />
 
                 <img
-                    src ="<?php echo VRC_URL; ?>/assets/img/ajax-loader.gif"
+                    src ="<?php echo EM_URL; ?>/img/ajax-loader.gif"
                     id  ="ajax-loader"
                     alt ="Loading..."
                 />

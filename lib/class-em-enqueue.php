@@ -119,6 +119,15 @@ if ( ! class_exists( 'EM_Enquque' ) ) {
 
 		    		wp_localize_script( 'vr_submit_postJS', 'submitPost', $submit_post_data );
 
+		    		// CSS.
+		    		wp_enqueue_style(
+		    			'em_css',
+		    			EM_URL . '/css/style.css',
+		    			array(),
+		    			EM_VERSION,
+		    			'all'
+		    		);
+
 				} // End if().
 			} // Function ended.
 

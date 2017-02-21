@@ -91,7 +91,7 @@ class EM_Login {
 
 		$user_signon = wp_signon( $info, false );
 
-		if( is_wp_error( $user_signon ) ) {
+		if ( is_wp_error( $user_signon ) ) {
 		    echo json_encode( array(
 		        'success' => false,
 		        'message' => __( 'Wrong username or password.', 'EM' ),

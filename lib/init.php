@@ -21,8 +21,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @since 1.0.0
  */
-if ( file_exists( EM_DIR . '/lib/enqueue.php' ) ) {
-    require_once( EM_DIR . '/lib/enqueue.php' );
+if ( file_exists( EM_DIR . '/lib/class-em-enqueue.php' ) ) {
+    require_once( EM_DIR . '/lib/class-em-enqueue.php' );
 }
 
 /**

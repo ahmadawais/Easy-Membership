@@ -239,7 +239,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
             <div class="em_form__element em_btn em_btn--block">
                 <input type="submit" id="update-user" name="update-user" class="em_btn--secondary em_btn--homePad" value="<?php _e( 'Save Changes', 'EM' ); ?>">
-                <img src="<?php echo VRC_URL; ?>/assets/img/ajax-loader.gif" id="ajax-loader" alt="Loading..." class="em_dn"/>
+                <img src="<?php echo EM_URL; ?>/img/ajax-loader.gif" id="ajax-loader" alt="Loading..." class="em_dn"/>
             </div>
 
             <p id="form-message" class="em_notice em_notice--success em_dn"></p>
