@@ -17,6 +17,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
+ * Composer Autoload.
+ *
+ * @since 1.0.0
+ */
+if ( file_exists( EM_DIR . '/vendor/autoload.php' ) ) {
+    require_once( EM_DIR . '/vendor/autoload.php' );
+}
+
+/**
  * Enqueue Scripts & Styles.
  *
  * @since 1.0.0
@@ -88,6 +97,15 @@ if ( file_exists( EM_DIR . '/lib/class-submit-post.php' ) ) {
     require_once( EM_DIR . '/lib/class-submit-post.php' );
 }
 
+
+/**
+ * Paddle Init.
+ *
+ * @since 1.0.0
+ */
+if ( file_exists( EM_DIR . '/paddle/paddle-init.php' ) ) {
+    require_once( EM_DIR . '/paddle/paddle-init.php' );
+}
 /**
  * Actions/Filters for membership.
  *

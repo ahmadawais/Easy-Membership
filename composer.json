@@ -1,0 +1,5 @@
+{
+    "require": {
+        "paddle/php-api": "1.*"
+    }
+}
