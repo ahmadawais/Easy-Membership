@@ -15,6 +15,7 @@ jQuery( function( $ ) {
 		// Setup is needed.
 		Paddle.Setup({
 			vendor: 16413,
+			completeDetails: true,
 			debug: true,
 		});
 
